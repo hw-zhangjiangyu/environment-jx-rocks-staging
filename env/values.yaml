@@ -28,3 +28,7 @@ jenkins:
         TILLER_NAMESPACE: kube-system
   enabled: false
 prow: {}
+mongodb:
+  mongodbUsername: "test"
+  mongodbPassword: "test"
+  mongodbDatabase: "testdb"
