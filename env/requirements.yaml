@@ -10,9 +10,12 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.89
-- name: quickstart-demo
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.3
 - name: mongodb
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 4.2.1
+- name: quickstart-demo
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.3
+- name: s1p-gateway
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.66
