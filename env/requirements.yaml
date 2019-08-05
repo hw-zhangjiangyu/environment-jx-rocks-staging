@@ -16,6 +16,9 @@ dependencies:
 - name: quickstart-demo
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.3
+- name: s1p-concerts-service
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.82
 - name: s1p-gateway
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.66
